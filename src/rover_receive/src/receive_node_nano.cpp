@@ -1,7 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include <iostream>
-#include <SerialStream.h> // Include the SerialStream header file
+#include <SerialStream.h>
 
 class ReceiveNode : public rclcpp::Node {
 public:
@@ -25,11 +25,12 @@ public:
 
 private:
   void messageCallback(const std_msgs::msg::String::SharedPtr msg) {
-    RCLCPP_INFO(this->get_logger(), "Received by RPi: %s", msg->data.c_str());
+    RCLCPP_INFO(this->get_logger(), "Received by RPi: %s", msg->data.c_str()); //gets the logger associated with the current node (receive_node)
+                                                                                //and logs the message received from the topic
 
-
+    RCLCPP_INFO(this->get_logger(), "%s%s", msg->data.c_str(), ";");
     // Send the message over the serial port
-    (*serial_port_) << msg->data+"\n" << std::endl; // Send with newline
+    (*serial_port_) << msg->data+";" << std::endl; // Send with newline
 
     // Read data from the serial port (what Arduino sends back)
     std::string received_from_arduino;

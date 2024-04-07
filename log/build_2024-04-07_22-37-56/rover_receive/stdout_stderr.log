@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target receive_node_nano[0m
+[100%] Built target receive_node_nano
+-- Install configuration: ""
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/lib/rover_receive/receive_node_nano
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/ament_index/resource_index/package_run_dependencies/rover_receive
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/ament_index/resource_index/parent_prefix_path/rover_receive
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/ament_prefix_path.sh
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/path.sh
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/path.dsv
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.bash
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.sh
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.zsh
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.dsv
+-- Installing: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.dsv
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/ament_index/resource_index/packages/rover_receive
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/cmake/rover_receiveConfig.cmake
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/cmake/rover_receiveConfig-version.cmake
+-- Up-to-date: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.xml

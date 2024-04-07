@@ -1,0 +1,143 @@
+[1.646s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.647s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffac23b0a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac3734f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac3734f0>>)
+[3.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.805s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.806s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.807s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/arno/MicroverRoombaV3'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.809s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.811s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.955s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.955s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.962s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.963s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.963s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.964s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.965s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.965s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.968s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.970s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.971s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.972s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.973s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extensions ['ignore', 'ignore_ament_install']
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extension 'ignore'
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extension 'ignore_ament_install'
+[3.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extensions ['colcon_pkg']
+[3.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extension 'colcon_pkg'
+[3.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extensions ['colcon_meta']
+[3.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extension 'colcon_meta'
+[3.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extensions ['ros']
+[3.980s] Level 1:colcon.colcon_core.package_identification:_identify(src/rover_receive) by extension 'ros'
+[4.003s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rover_receive' with type 'ros.ament_cmake' and name 'rover_receive'
+[4.003s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.004s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.301s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/arno/MicroverRoombaV3/install
+[4.320s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 180 installed packages in /opt/ros/humble
+[4.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.659s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'cmake_args' from command line to 'None'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'cmake_target' from command line to 'None'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.660s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'cmake_clean_cache' from command line to 'False'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'cmake_clean_first' from command line to 'False'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'cmake_force_configure' from command line to 'False'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'ament_cmake_args' from command line to 'None'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'catkin_cmake_args' from command line to 'None'
+[4.661s] Level 5:colcon.colcon_core.verb:set package 'rover_receive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.662s] DEBUG:colcon.colcon_core.verb:Building package 'rover_receive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/arno/MicroverRoombaV3/build/rover_receive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/arno/MicroverRoombaV3/install/rover_receive', 'merge_install': False, 'path': '/home/arno/MicroverRoombaV3/src/rover_receive', 'symlink_install': False, 'test_result_base': None}
+[4.663s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.670s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/arno/MicroverRoombaV3/src/rover_receive' with build type 'ament_cmake'
+[4.671s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/arno/MicroverRoombaV3/src/rover_receive'
+[4.707s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arno/MicroverRoombaV3/build/rover_receive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4
+[115.529s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arno/MicroverRoombaV3/build/rover_receive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4
+[116.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/arno/MicroverRoombaV3/build/rover_receive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/MicroverRoombaV3/build/rover_receive
+[116.359s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/arno/MicroverRoombaV3/build/rover_receive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/MicroverRoombaV3/build/rover_receive
+[116.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_receive)
+[116.746s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive' for CMake module files
+[116.768s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive' for CMake config files
+[116.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_receive', 'cmake_prefix_path')
+[116.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/hook/cmake_prefix_path.ps1'
+[119.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/hook/cmake_prefix_path.dsv'
+[119.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/hook/cmake_prefix_path.sh'
+[119.099s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/lib'
+[119.105s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/bin'
+[119.115s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/lib/pkgconfig/rover_receive.pc'
+[119.130s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/lib/python3.10/site-packages'
+[119.134s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/bin'
+[119.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.ps1'
+[119.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.dsv'
+[119.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.sh'
+[119.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.bash'
+[119.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.zsh'
+[119.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arno/MicroverRoombaV3/install/rover_receive/share/colcon-core/packages/rover_receive)
+[119.407s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rover_receive)
+[119.410s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive' for CMake module files
+[119.417s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive' for CMake config files
+[119.420s] Level 1:colcon.colcon_core.shell:create_environment_hook('rover_receive', 'cmake_prefix_path')
+[119.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/hook/cmake_prefix_path.ps1'
+[119.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/hook/cmake_prefix_path.dsv'
+[119.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/hook/cmake_prefix_path.sh'
+[119.434s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/lib'
+[119.435s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/bin'
+[119.435s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/lib/pkgconfig/rover_receive.pc'
+[119.437s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/lib/python3.10/site-packages'
+[119.440s] Level 1:colcon.colcon_core.environment:checking '/home/arno/MicroverRoombaV3/install/rover_receive/bin'
+[119.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.ps1'
+[119.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.dsv'
+[119.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.sh'
+[119.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.bash'
+[119.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.zsh'
+[119.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/arno/MicroverRoombaV3/install/rover_receive/share/colcon-core/packages/rover_receive)
+[119.467s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[119.470s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[119.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[119.472s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[119.678s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[119.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[119.679s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[119.680s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[120.198s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[120.199s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[120.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/MicroverRoombaV3/install/local_setup.ps1'
+[120.216s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arno/MicroverRoombaV3/install/_local_setup_util_ps1.py'
+[120.231s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/MicroverRoombaV3/install/setup.ps1'
+[120.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/MicroverRoombaV3/install/local_setup.sh'
+[120.250s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/arno/MicroverRoombaV3/install/_local_setup_util_sh.py'
+[120.257s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/MicroverRoombaV3/install/setup.sh'
+[120.268s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/MicroverRoombaV3/install/local_setup.bash'
+[120.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/MicroverRoombaV3/install/setup.bash'
+[120.285s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/arno/MicroverRoombaV3/install/local_setup.zsh'
+[120.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/arno/MicroverRoombaV3/install/setup.zsh'
