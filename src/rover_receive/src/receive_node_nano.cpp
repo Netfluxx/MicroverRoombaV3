@@ -7,7 +7,8 @@ class ReceiveNode : public rclcpp::Node {
 public:
   ReceiveNode() : Node("receive_node") {
     // Open serial port (replace "/dev/ttyUSB0" with your Arduino's port)
-    serial_port_ = new LibSerial::SerialStream("/dev/ttyUSB0", LibSerial::SerialStreamBuf::BAUD_9600);
+    serial_port_ = new LibSerial::SerialStream("/dev/ttyUSB0", LibSerial::BaudRate::BAUD_9600);
+
     if (!serial_port_->good()) {
       RCLCPP_ERROR(this->get_logger(), "Failed to open serial port");
       throw std::runtime_error("Failed to open serial port");

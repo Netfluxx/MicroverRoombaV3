@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.001479] (rover_receive) JobQueued: {'identifier': 'rover_receive', 'dependencies': OrderedDict()}
+[0.003614] (rover_receive) JobStarted: {'identifier': 'rover_receive'}
+[0.069805] (rover_receive) JobProgress: {'identifier': 'rover_receive', 'progress': 'cmake'}
+[0.075770] (rover_receive) JobProgress: {'identifier': 'rover_receive', 'progress': 'build'}
+[0.081149] (rover_receive) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/arno/MicroverRoombaV3/build/rover_receive', '--', '-j4', '-l4'], 'cwd': '/home/arno/MicroverRoombaV3/build/rover_receive', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'arno'), ('SSH_CLIENT', '192.168.3.158 59898 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/arno'), ('OLDPWD', '/home/arno/MicroverRoombaV3/src'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/arno/MicroverRoombaV3/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'arno'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/arno/MicroverRoombaV3/build/rover_receive'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.3.158 59898 192.168.3.115 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100698] (-) TimerEvent: {}
+[0.204968] (-) TimerEvent: {}
+[0.273308] (rover_receive) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.305227] (-) TimerEvent: {}
+[0.406378] (-) TimerEvent: {}
+[0.507492] (-) TimerEvent: {}
+[0.608736] (-) TimerEvent: {}
+[0.709854] (-) TimerEvent: {}
+[0.810827] (-) TimerEvent: {}
+[0.911879] (-) TimerEvent: {}
+[1.013022] (-) TimerEvent: {}
+[1.114143] (-) TimerEvent: {}
+[1.215289] (-) TimerEvent: {}
+[1.316489] (-) TimerEvent: {}
+[1.336049] (rover_receive) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.416744] (-) TimerEvent: {}
+[1.517867] (-) TimerEvent: {}
+[1.606386] (rover_receive) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.618134] (-) TimerEvent: {}
+[1.628373] (rover_receive) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.677499] (rover_receive) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.718392] (-) TimerEvent: {}
+[1.769184] (rover_receive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.818652] (-) TimerEvent: {}
+[1.899014] (rover_receive) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.918885] (-) TimerEvent: {}
+[2.020087] (-) TimerEvent: {}
+[2.121184] (-) TimerEvent: {}
+[2.222270] (-) TimerEvent: {}
+[2.323434] (-) TimerEvent: {}
+[2.377809] (rover_receive) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.388888] (rover_receive) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.423706] (-) TimerEvent: {}
+[2.524773] (-) TimerEvent: {}
+[2.625853] (-) TimerEvent: {}
+[2.726935] (-) TimerEvent: {}
+[2.828077] (-) TimerEvent: {}
+[2.929157] (-) TimerEvent: {}
+[3.030296] (-) TimerEvent: {}
+[3.131636] (-) TimerEvent: {}
+[3.232676] (-) TimerEvent: {}
+[3.333763] (-) TimerEvent: {}
+[3.388327] (rover_receive) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.434107] (-) TimerEvent: {}
+[3.535199] (-) TimerEvent: {}
+[3.636417] (-) TimerEvent: {}
+[3.737513] (-) TimerEvent: {}
+[3.838651] (-) TimerEvent: {}
+[3.939852] (-) TimerEvent: {}
+[4.040985] (-) TimerEvent: {}
+[4.142129] (-) TimerEvent: {}
+[4.243213] (-) TimerEvent: {}
+[4.344365] (-) TimerEvent: {}
+[4.445455] (-) TimerEvent: {}
+[4.546590] (-) TimerEvent: {}
+[4.647735] (-) TimerEvent: {}
+[4.748797] (-) TimerEvent: {}
+[4.849945] (-) TimerEvent: {}
+[4.951015] (-) TimerEvent: {}
+[5.052140] (-) TimerEvent: {}
+[5.153316] (-) TimerEvent: {}
+[5.238972] (rover_receive) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.253519] (-) TimerEvent: {}
+[5.335051] (rover_receive) StdoutLine: {'line': b'-- Generating done\n'}
+[5.351170] (rover_receive) StdoutLine: {'line': b'-- Build files have been written to: /home/arno/MicroverRoombaV3/build/rover_receive\n'}
+[5.353709] (-) TimerEvent: {}
+[5.454815] (-) TimerEvent: {}
+[5.556070] (-) TimerEvent: {}
+[5.588304] (rover_receive) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/receive_node_nano.dir/src/receive_node_nano.cpp.o\x1b[0m\n'}
+[5.656371] (-) TimerEvent: {}
+[5.757515] (-) TimerEvent: {}
+[5.858562] (-) TimerEvent: {}
+[5.959643] (-) TimerEvent: {}
+[6.060696] (-) TimerEvent: {}
+[6.161755] (-) TimerEvent: {}
+[6.262846] (-) TimerEvent: {}
+[6.363997] (-) TimerEvent: {}
+[6.465044] (-) TimerEvent: {}
+[6.566076] (-) TimerEvent: {}
+[6.667132] (-) TimerEvent: {}
+[6.768228] (-) TimerEvent: {}
+[6.869272] (-) TimerEvent: {}
+[6.970402] (-) TimerEvent: {}
+[7.071468] (-) TimerEvent: {}
+[7.172583] (-) TimerEvent: {}
+[7.273590] (-) TimerEvent: {}
+[7.374632] (-) TimerEvent: {}
+[7.475777] (-) TimerEvent: {}
+[7.576880] (-) TimerEvent: {}
+[7.678005] (-) TimerEvent: {}
+[7.779060] (-) TimerEvent: {}
+[7.880194] (-) TimerEvent: {}
+[7.981360] (-) TimerEvent: {}
+[8.082642] (-) TimerEvent: {}
+[8.184005] (-) TimerEvent: {}
+[8.285043] (-) TimerEvent: {}
+[8.329830] (rover_receive) StderrLine: {'line': b'\x1b[01m\x1b[K/home/arno/MicroverRoombaV3/src/rover_receive/src/receive_node_nano.cpp:4:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[KSerialStream.h: No such file or directory\n'}
+[8.330881] (rover_receive) StderrLine: {'line': b'    4 | #include \x1b[01;31m\x1b[K<SerialStream.h>\x1b[m\x1b[K // Include the SerialStream header file\n'}
+[8.331643] (rover_receive) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.332353] (rover_receive) StderrLine: {'line': b'compilation terminated.\n'}
+[8.347873] (rover_receive) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/receive_node_nano.dir/build.make:76: CMakeFiles/receive_node_nano.dir/src/receive_node_nano.cpp.o] Error 1\n'}
+[8.349456] (rover_receive) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/receive_node_nano.dir/all] Error 2\n'}
+[8.351270] (rover_receive) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.365455] (rover_receive) CommandEnded: {'returncode': 2}
+[8.385348] (-) TimerEvent: {}
+[8.486601] (-) TimerEvent: {}
+[8.587859] (-) TimerEvent: {}
+[8.691224] (-) TimerEvent: {}
+[8.733288] (rover_receive) JobEnded: {'identifier': 'rover_receive', 'rc': 2}
+[8.746237] (-) EventReactorShutdown: {}
