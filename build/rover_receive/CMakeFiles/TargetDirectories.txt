@@ -1,0 +1,10 @@
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/uninstall.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/rover_receive_uninstall.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/receive_node_nano.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/test.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/edit_cache.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/rebuild_cache.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/list_install_components.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/install.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/install/local.dir
+/home/arno/MicroverRoombaV3/build/rover_receive/CMakeFiles/install/strip.dir
