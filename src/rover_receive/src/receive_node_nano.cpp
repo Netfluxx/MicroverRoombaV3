@@ -27,9 +27,14 @@ private:
   void messageCallback(const std_msgs::msg::String::SharedPtr msg) {
     RCLCPP_INFO(this->get_logger(), "Received by RPi: %s", msg->data.c_str());
 
+
     // Send the message over the serial port
-    (*serial_port_) << msg->data << std::endl; // Send with newline
-    RCLCPP_INFO(this->get_logger(), "Sent to Arduino: %s", msg->data.c_str());
+    (*serial_port_) << msg->data+"\n" << std::endl; // Send with newline
+
+    // Read data from the serial port (what Arduino sends back)
+    std::string received_from_arduino;
+    (*serial_port_) >> received_from_arduino;
+    RCLCPP_INFO(this->get_logger(), "Received from Arduino: %s", received_from_arduino.c_str());
   }
 
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
