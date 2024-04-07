@@ -1,0 +1,26 @@
+[0.104s] Invoking command in '/home/arno/MicroverRoombaV3/build/rover_receive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4
+[0.977s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.168s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.550s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.578s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.654s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.531s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.550s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.639s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.110s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[6.115s] -- Checking for module 'libserial'
+[6.227s] --   Found libserial, version 1.0.0
+[7.044s] -- Configuring done
+[7.202s] -- Generating done
+[7.219s] -- Build files have been written to: /home/arno/MicroverRoombaV3/build/rover_receive
+[7.514s] [ 50%] [32mBuilding CXX object CMakeFiles/receive_node_nano.dir/src/receive_node_nano.cpp.o[0m
+[12.118s] [01m[K/home/arno/MicroverRoombaV3/src/rover_receive/src/receive_node_nano.cpp:4:10:[m[K [01;31m[Kfatal error: [m[KSerialStream.h: No such file or directory
+[12.119s]     4 | #include [01;31m[K<SerialStream.h>[m[K // Include the SerialStream header file
+[12.120s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[12.121s] compilation terminated.
+[12.144s] gmake[2]: *** [CMakeFiles/receive_node_nano.dir/build.make:76: CMakeFiles/receive_node_nano.dir/src/receive_node_nano.cpp.o] Error 1
+[12.145s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/receive_node_nano.dir/all] Error 2
+[12.147s] gmake: *** [Makefile:146: all] Error 2
+[12.160s] Invoked command in '/home/arno/MicroverRoombaV3/build/rover_receive' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4

@@ -1,0 +1,10 @@
+[0.090s] Invoking command in '/home/arno/MicroverRoombaV3/build/rover_receive': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4
+[0.420s] [ 50%] [32mBuilding CXX object CMakeFiles/receive_node_nano.dir/src/receive_node_nano.cpp.o[0m
+[3.173s] [01m[K/home/arno/MicroverRoombaV3/src/rover_receive/src/receive_node_nano.cpp:3:10:[m[K [01;31m[Kfatal error: [m[KwiringPi.h: No such file or directory
+[3.174s]     3 | #include [01;31m[K<wiringPi.h>[m[K
+[3.175s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[3.175s] compilation terminated.
+[3.193s] gmake[2]: *** [CMakeFiles/receive_node_nano.dir/build.make:76: CMakeFiles/receive_node_nano.dir/src/receive_node_nano.cpp.o] Error 1
+[3.194s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/receive_node_nano.dir/all] Error 2
+[3.196s] gmake: *** [Makefile:146: all] Error 2
+[3.211s] Invoked command in '/home/arno/MicroverRoombaV3/build/rover_receive' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4
