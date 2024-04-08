@@ -1,0 +1,26 @@
+[0.105s] Invoking command in '/home/arno/MicroverRoombaV3/build/rover_receive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4
+[0.858s] [35m[1mConsolidate compiler generated dependencies of target receive_node_nano[0m
+[1.077s] [ 50%] [32mBuilding CXX object CMakeFiles/receive_node_nano.dir/src/receive_node_nano.cpp.o[0m
+[101.657s] [100%] [32m[1mLinking CXX executable receive_node_nano[0m
+[107.407s] [100%] Built target receive_node_nano
+[108.043s] Invoked command in '/home/arno/MicroverRoombaV3/build/rover_receive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/arno/MicroverRoombaV3/build/rover_receive -- -j4 -l4
+[109.053s] Invoking command in '/home/arno/MicroverRoombaV3/build/rover_receive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/MicroverRoombaV3/build/rover_receive
+[109.109s] -- Install configuration: ""
+[109.117s] -- Execute custom install script
+[109.127s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/lib/rover_receive/receive_node_nano
+[109.138s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/ament_index/resource_index/package_run_dependencies/rover_receive
+[109.144s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/ament_index/resource_index/parent_prefix_path/rover_receive
+[109.161s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/ament_prefix_path.sh
+[109.165s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/ament_prefix_path.dsv
+[109.169s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/path.sh
+[109.173s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/environment/path.dsv
+[109.176s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.bash
+[109.179s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.sh
+[109.182s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.zsh
+[109.185s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/local_setup.dsv
+[109.187s] -- Symlinking: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.dsv
+[109.254s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/ament_index/resource_index/packages/rover_receive
+[109.259s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/cmake/rover_receiveConfig.cmake
+[109.261s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/cmake/rover_receiveConfig-version.cmake
+[109.265s] -- Up-to-date symlink: /home/arno/MicroverRoombaV3/install/rover_receive/share/rover_receive/package.xml
+[109.295s] Invoked command in '/home/arno/MicroverRoombaV3/build/rover_receive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/arno/MicroverRoombaV3/build/rover_receive
