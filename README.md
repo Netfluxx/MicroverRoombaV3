@@ -1,1 +1,1 @@
-Code on the XRC RoombaV2 Rover.
+RPi onboard code for the XRC RoombaV2 Rover.
